@@ -127,6 +127,18 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
 
+        'background-jobs' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/background-jobs.log'),
+            'level' => 'debug',
+        ],
+
+        'background-jobs-errors' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/background-jobs-errors.log'),
+            'level' => 'debug',
+        ],
+
     ],
 
 ];

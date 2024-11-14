@@ -64,3 +64,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Laravel Background Job Runner
+
+A custom background job processing system for Laravel applications that provides a simple, flexible way to run PHP classes as background jobs with monitoring capabilities.
+
+## Features
+
+- Run PHP classes as background jobs independently of Laravel's queue system
+- Web-based dashboard for monitoring jobs
+- Job prioritization
+- Delayed job execution
+- Automatic retry mechanism for failed jobs
+- Comprehensive logging
+- Security controls for job execution
+- Job cancellation and retry capabilities
+
+## Installation
+
+1. Install via composer:
+
+```bash
+composer require
+```
